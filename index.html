@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hermes-Agent 개인용 Google Workspace 연동 안내">
+  <title>Hermes-Agent Google Workspace 연동</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-name" href="/">Hermes-Agent</a>
+      <nav aria-label="주요 메뉴">
+        <a href="/">홈</a>
+        <a href="/privacy/">개인정보처리방침</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">개인용 로컬 자동화 도구</p>
+      <h1 id="page-title">Hermes-Agent Google Workspace 연동</h1>
+      <p class="lead">이 사이트는 김찬홍이 개인적으로 운영하는 Hermes-Agent의 Google OAuth 연동 목적과 데이터 처리 방식을 설명합니다.</p>
+      <div class="notice" role="note">
+        <strong>일반 공개 서비스가 아닙니다.</strong>
+        <p>이 OAuth 앱은 운영자 본인의 Google 계정에서 사용자 지시형 작업을 수행하기 위한 개인용 도구이며, 불특정 다수에게 계정이나 기능을 제공하지 않습니다.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="purpose-title">
+      <h2 id="purpose-title">연동 목적</h2>
+      <p>Hermes-Agent는 운영자가 명시적으로 요청한 작업을 수행하기 위해 Google API를 사용합니다. 예를 들어 일정 조회·정리, 이메일 검색·작성·관리, Drive 파일 작업, Docs·Sheets 문서 작업, 연락처 조회를 수행할 수 있습니다.</p>
+    </section>
+
+    <section aria-labelledby="services-title">
+      <h2 id="services-title">접근하는 Google 서비스</h2>
+      <ul class="service-list">
+        <li><strong>Gmail</strong><span>메일 읽기, 보내기, 라벨 등 메일 상태 관리</span></li>
+        <li><strong>Google Calendar</strong><span>캘린더와 일정 조회·관리</span></li>
+        <li><strong>Google Drive</strong><span>파일 조회·생성·수정·정리</span></li>
+        <li><strong>Google Docs</strong><span>문서 조회·생성·수정</span></li>
+        <li><strong>Google Sheets</strong><span>스프레드시트 조회·생성·수정</span></li>
+        <li><strong>Google Contacts</strong><span>연락처 읽기</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="handling-title">
+      <h2 id="handling-title">데이터 처리 원칙</h2>
+      <ul>
+        <li>Google 데이터는 운영자가 요청한 기능을 제공하는 용도로만 사용합니다.</li>
+        <li>OAuth 토큰과 작업 기록은 운영자가 관리하는 로컬 환경에 저장될 수 있습니다.</li>
+        <li>작업 수행에 필요한 데이터는 운영자가 선택한 AI 모델 제공자에게 전송되어 처리될 수 있습니다.</li>
+        <li>Google 사용자 데이터를 광고, 데이터 판매, 신용평가 또는 감시 목적으로 사용하지 않습니다.</li>
+        <li>이 공개 안내 사이트는 Google 사용자 데이터를 수집하지 않으며, 분석 스크립트·쿠키·입력 양식을 사용하지 않습니다.</li>
+      </ul>
+      <p><a class="button" href="/privacy/">개인정보처리방침 전문 보기</a></p>
+    </section>
+
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">문의</h2>
+      <p>운영자: 김찬홍<br>이메일: <a href="mailto:andrea9292@gmail.com">andrea9292@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 김찬홍 · <a href="https://a11ylab.kr/">알리의 접근성 연구소</a></p>
+    </div>
+  </footer>
+</body>
+</html>
